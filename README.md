@@ -1,7 +1,6 @@
 # Презентация работы
 
-![https://imgur.com/a8efdsT]
-
+![Image alt](https://github.com/mihalchenkov-kirill/ros_two-turtle/blob/main/image.png)
 
 # Клонирование готового репозитория и запуск проекта
 
