@@ -1,0 +1,2 @@
+turtle_follower
+-DCATKIN_DEVEL_PREFIX=/home/dova/homework/devel -DCMAKE_INSTALL_PREFIX=/home/dova/homework/install -G Unix Makefiles

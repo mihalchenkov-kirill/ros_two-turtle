@@ -1,0 +1,12 @@
+<launch>
+  <!-- Запуск ноды turtlesim_node -->
+  <node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node" output="screen"/>
+
+  <!-- Запуск ноды turtle_teleop_key -->
+  <node pkg="turtlesim" type="turtle_teleop_key" name="turtle_teleop_key" output="screen"/>
+
+  <!-- Запуск ноды черепашки преследователя, где значение value - скорость преследователя (от 0.1 до 1.0 желательно) -->
+  <node pkg="turtle_follower" type="turtle_follower.py" name="turtle_follower_node" output="screen" required="true">
+    <param name="follower_speed" value="0.5"/>
+  </node>
+</launch>
