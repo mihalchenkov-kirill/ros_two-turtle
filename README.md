@@ -1,3 +1,26 @@
+
+# Клонирование готового репозитория и запуск проекта
+
+Клонируем репозиторий:
+
+```git clone https://github.com/mihalchenkov-kirill/ros_two-turtle.git```
+
+Переходим в репозиторий:
+
+```cd ros_two-turtle```
+
+Инициализируем среду:
+
+```rm -rf build```
+
+```catkin_make```
+
+```source devel/setup.bash```
+
+Запускаем лаун-файл:
+
+```roslaunch turtle_follower turtle_follower.launch```
+
 # Установка ROS Melodic на Ubuntu:18.04
 
 1. Установите последнюю версию Ubuntu: 18.04 или 20.04.
@@ -32,5 +55,3 @@
 	```sudo rosdep init```
 	
 	```rosdep update```
-
-# Клонирование готового репозитория и запуск проекта
