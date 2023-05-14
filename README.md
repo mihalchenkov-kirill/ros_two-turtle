@@ -30,6 +30,8 @@
 
 Если ошибка: "Make sure file exists in package path and permission is set to executable (chmod +x)"
 
+```Нажимаем сочетание ctrl + C в консоли, что бы остановить запущенную ноду```
+
 ```cd src/turtle_follower/src/```
 
 ```chmod +x turtle_follower.py```
