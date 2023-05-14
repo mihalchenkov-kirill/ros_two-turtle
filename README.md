@@ -28,6 +28,14 @@
 
 ```roslaunch src/turtle_follower/launch/turtle_follower.launch```
 
+Если ошибка: "Make sure file exists in package path and permission is set to executable (chmod +x)"
+
+```cd src/turtle_follower/src/```
+
+```chmod +x turtle_follower.py```
+
+```roslaunch turtle_follower turtle_follower.launch```
+
 # Установка ROS Melodic на Ubuntu:18.04
 
 1. Установите последнюю версию Ubuntu: 18.04 или 20.04.
