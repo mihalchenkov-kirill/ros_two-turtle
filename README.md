@@ -21,6 +21,10 @@
 
 ```roslaunch turtle_follower turtle_follower.launch```
 
+Если не работает то:
+
+```roslaunch src/turtle_follower/launch/turtle_follower.launch```
+
 # Установка ROS Melodic на Ubuntu:18.04
 
 1. Установите последнюю версию Ubuntu: 18.04 или 20.04.
